@@ -1,0 +1,14 @@
+﻿<Window x:Class="YourNamespace.TransparentOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Transparent Overlay Window" 
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Background="#7FFFFFFF" 
+        ResizeMode="NoResize" 
+        ShowInTaskbar="False" 
+        Loaded="Window_Loaded">
+    <Grid>
+        <!-- You can add content here if needed -->
+    </Grid>
+</Window>
